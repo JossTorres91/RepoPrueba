@@ -1,4 +1,52 @@
 body{
     font-family: 'Grape Nuts',
     cursive;
+    width: 1600px;
+}
+header{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.342);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color: rgb(13, 206, 240);
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.486); 
+    height: auto;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}   
+h2{
+    text-align: center;
+    color: blue;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    border-color: brown;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+} 
+.wedopict{
+    display: flex;
+    justify-content: space-between;
+}
+.ourteampict{
+    display: flex;
+    justify-content: space-between;
+}
+figure{
+    margin: 0px;
+    padding: 0px;
+}
+.ourteampict p{
+    text-align: center;
 }
